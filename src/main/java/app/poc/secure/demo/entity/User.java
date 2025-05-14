@@ -1,7 +1,10 @@
 package app.poc.secure.demo.entity;
 
+import jakarta.persistence.Id;
+
 public class User {
 
+    @Id
     private Long id;
     private String username;
     private String password;
