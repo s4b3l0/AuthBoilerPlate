@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class TokenGeneratorTest {
 
-    private static final TokenGenerator tokenGenerator = new TokenGenerator();
+    private static final JwtTokenUtil<String, String> tokenGenerator = new TokenGenerator();
 
     @BeforeAll()
     static void beforeAll() {
